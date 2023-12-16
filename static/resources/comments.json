@@ -1,0 +1,19 @@
+[
+    {
+        "nombre": "Melanie",
+        "tratamiento": "Limpieza",
+        "comentario": "Muy buen servicio! 100% recomendado"
+    },
+
+    {
+        "nombre": "Camila",
+        "tratamiento": "Masaje de dedos",
+        "comentario": "Excelente la calidad, volvere regularmente"
+    },
+
+    {
+        "nombre": "Margarita",
+        "tratamiento": "Hongos",
+        "comentario": "10/10 Sandra es increible"
+    }
+]
