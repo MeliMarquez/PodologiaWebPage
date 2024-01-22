@@ -9,6 +9,76 @@ body {
     color: #333;
 }
 
+/* Header */
+#header {
+	background-color: transparent;
+	height: 10vh;
+	width: 100%; 
+
+	top: 0; 
+	z-index: 1;
+  position: fixed;
+
+  transition: all ease-out .5s;
+}
+
+#header a {
+    color: rgb(255, 255, 255);
+
+}
+
+
+/* Introduction */
+
+.center-intro {
+  position: absolute;
+  width: 100%;
+
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  text-align: center;
+}
+
+.center-intro img{
+  width: 7%;
+}
+
+.center-intro h1{
+  color: #ffffff;
+  font-size:5vw;
+
+  
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: black;
+}
+
+.center-intro h2{
+  font-size:2vw;
+  color: #ffffff;
+
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: black;
+}
+
+.center-intro h4{
+  color: #ffffff;
+  
+  -webkit-text-stroke-width: 0.1px;
+  -webkit-text-stroke-color: black;
+}
+
+.background-title-intro{
+  background-color: rgba(171, 181, 255, 0.352);
+}
+
+
+
+
+
+
+
 .container {
     width: 80%;
     margin: 0 auto;
@@ -22,21 +92,6 @@ body {
 
 html{
     scroll-behavior: smooth;
-}
-
-#header {
-	background-color: transparent;
-	height: 10vh;
-	width: 100%; 
-
-	top: 0; /* Posicionamos la cabecera pegada arriba */
-	position: fixed; /* Hacemos que la cabecera tenga una posición fija */
-
-    transition: all ease-out .5s;
-}
-
-#header a {
-    color: white;
 }
 
 nav {
@@ -84,6 +139,12 @@ nav a:hover {
     width: 15%;
   }
 
+  .center-div {
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+  }
+
 .center-h1 {
     display: block;
     margin-left: auto;
@@ -91,14 +152,16 @@ nav a:hover {
   }
 
 
-  .waviy {
+  .title {
     position: relative;
+    font-family: Helvetica, Sans-Serif;
   }
-  .waviy span {
+  .title span {
     position: relative;
     display: inline-block;
     font-size: 120px;
-    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
     text-transform: uppercase;
     animation: flip 2s infinite;
     animation-delay: calc(.2s * var(--i))
@@ -115,9 +178,11 @@ nav a:hover {
     height: 100%;
 
 
-    background-image: url("../resources/img/b4.jpg");
+    background-image: url("../resources/img/b9.jpg");
     background-repeat: no-repeat;
     background-position: center;
+
+    background-color:rgba(0, 0, 0, 0.5);
     
 
     margin: auto;
@@ -136,6 +201,18 @@ nav a:hover {
 
 
     border:10px solid rgb(255, 255, 255);
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  
+  .square-title {
+    height: 50vh;
+
+
 
     position: absolute;
     top: 50%;
