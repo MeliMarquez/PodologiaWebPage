@@ -1,6 +1,6 @@
 // Controls the header color
 window.onscroll = function() {
-  if (window.scrollY >= window.innerHeight) {
+  if (window.scrollY >= window.innerHeight - 1) {
     document.getElementById("header").style.backgroundColor = "black"
     /*document.getElementById("introduction-button").style.color = "white"
     document.getElementById("treatments-button").style.color = "white"
